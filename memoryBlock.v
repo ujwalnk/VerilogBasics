@@ -5,7 +5,7 @@
 // 
 // Create Date: 17.11.2022 05:36:45
 // Design Name: Memory Block
-// Module Name: simulation
+// Module Name: memoryBlock
 // Project Name: memoryBlock
 // Target Devices: Xilinx Boolean Spartan 7
 // Tool Versions: Vivado 21
@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module MemoryBlock(out, in, address, chipselect, readEn, writeEn, clk);
+module memoryBlock(out, in, address, chipselect, readEn, writeEn, clk);
 
     output reg [7:0] out;
     input [7:0]in;
