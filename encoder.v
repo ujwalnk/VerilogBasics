@@ -5,7 +5,7 @@
 // 
 // Create Date: 13.10.2022 07:08:54
 // Design Name: Binary Encoder
-// Module Name: Encoder
+// Module Name: encoder
 // Project Name: Encoder
 // Target Devices: Xilinx Boolean Spartan 7
 // Tool Versions: Vivado 21

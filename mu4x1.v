@@ -4,25 +4,31 @@
 // Engineer: Ujwal N K
 // 
 // Create Date: 29.09.2022 06:27:32
-// Design Name: MUX (2x1)
-// Module Name: MU2X1
+// Design Name: 
+// Module Name: mu4x1
 // Project Name: Multiplexer
-// Target Devices: Xilinx Boolean Spartan7
-// Tool Versions: Vivado 21
-// Description: 2x1 Multiplexer
+// Target Devices: Xilin Boolean Spartan 7
+// Tool Versions: Vivao 21
+// Description: 
 // 
-// Dependencies: None
+// Dependencies: MU2X1.v
 // 
 // Revision: 1.0
 // Revision 0.01 - File Created
-// Additional Comments: None
+// Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module MU2X1(out, selection, in);
+module MU4X1(out, s, i);
     output out;
-    input selection;
-    input [0:1]in;
+    input [0:3]i;
+    input [0:1]s;
     
-    assign out = selection? in[1] : in[0];
+    wire [0:1]w;  
+        
+    // Selection logic
+    MU2X1(w[0], i[0:1], s[0]);
+    MU2X1(w[1], i[1:2], s[0]);
+    MU2X1(out, w[0:1], s[1]);
+
 endmodule

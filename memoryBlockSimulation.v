@@ -5,7 +5,7 @@
 // 
 // Create Date: 17.11.2022 05:36:45
 // Design Name: Memory Block Simulation
-// Module Name: simulation
+// Module Name: memoryBlockSimulation
 // Project Name: Memory Block (Simulation)
 // Target Devices: 
 // Tool Versions: Vivado 21
