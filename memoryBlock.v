@@ -6,8 +6,8 @@
 // Create Date: 17.11.2022 05:36:45
 // Design Name: Memory Block
 // Module Name: simulation
-// Project Name: Memory Block
-// Target Devices: 
+// Project Name: memoryBlock
+// Target Devices: Xilinx Boolean Spartan 7
 // Tool Versions: Vivado 21
 // Description: Simple Memory Block
 // 
