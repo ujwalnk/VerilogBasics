@@ -9,7 +9,7 @@
 // Project Name: 
 // Target Devices: Xilinx Boolean Spartan 7
 // Tool Versions: Vivado 21
-// Description: 
+// Description: S R Flip Flop
 // 
 // Dependencies: srCFlipFLop
 // 
