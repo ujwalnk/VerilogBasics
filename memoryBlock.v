@@ -20,12 +20,12 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module memoryBlock(out, in, address, chipselect, readEn, writeEn, clk);
+module memoryBlock(out, in, address, chipSelect, readEn, writeEn, clk);
 
     output reg [7:0] out;
     input [7:0]in;
 
-    input chipselect, readEn, writeEn, clk; 
+    input chipSelect, readEn, writeEn, clk; 
     input address;
     
     reg [1023:0] data[7:0];
@@ -33,7 +33,7 @@ module memoryBlock(out, in, address, chipselect, readEn, writeEn, clk);
     always @(posedge clk)
     begin
         // On Chip select
-        if(chipselect)
+        if(chipSelect)
         begin
             // Check for read enable, write disable
             if(readEn && !writeEn)
