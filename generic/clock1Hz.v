@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: Madilu
-// Engineer: Ujwal N K
+// Company: 
+// Engineer: Sushmita Deb
 // 
 // Create Date: 17.11.2022 05:50:45
 // Design Name: 
